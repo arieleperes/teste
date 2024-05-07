@@ -1,0 +1,15 @@
+
+
+body{
+    margin: 30px 
+}
+
+.box {
+    background-color: rgb(8, 61, 152);
+    height: 300px;
+    width: 300px;
+}
+
+.box:hover {
+    background-color: rgb(226, 43, 217);
+}
