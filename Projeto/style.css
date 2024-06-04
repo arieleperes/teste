@@ -1,0 +1,154 @@
+
+/* ESTILOS GERAIS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* para deixar tudo dentro da borda da caixa */
+} 
+
+body{
+    background-color: white;
+    height: 100vh; /* para ocupar todo o espaço da tela */
+
+}
+
+.interface{
+    max-width: 1500px; /* largura maxima */
+    margin: 0 auto; /*centraliza */
+}
+
+.flex{
+    display: flex;
+}
+
+/* banner  */
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background: url(img/banner.png) no-repeat center;
+    background-size: cover;
+    box-shadow: 0 4px 10px black
+    
+}
+
+.banner h1 {
+    font-family:"Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    size: 40px;
+    color: white;
+    text-shadow: 1px 1px 10px  black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* topo do site */
+
+.topo-site {
+    padding: 40px 4%;
+    background-image: linear-gradient(
+        #fff2e7ea,#ffffff, #fff2e7ea 
+    );
+    box-shadow: 0 4px 10px black
+    
+}
+
+.texto-topo p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #522916;
+  width: 870px;
+  height:143px ;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 44px;
+    color: #522916;
+    text-align: center;
+
+}
+ 
+/* missao visao valores */
+
+.interface2{
+    max-width: 1000px; /* largura maxima */
+    margin: 0 auto; /*centraliza */
+}
+
+
+h3{ 
+     font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #522916;
+}
+
+ul
+{font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #522916;
+
+}
+
+.msv { 
+    padding: 80px; /*espaçamento nas laterais  */
+
+}
+
+.msv p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #522916;
+}
+
+h4{
+    font-family:"Poppins", sans-serif;
+    font-weight: 700;
+    color: #522916;
+    margin: 10px ; 
+
+}
+
+.missao {
+    background-color: #F9C89B ;
+    height: 82px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.348)
+}
+
+
+/* compartilhe */
+
+
+.compartilhe{
+    background-color: #F9C89B ;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+}
+
+.compartilhe p{
+    font-family:"Poppins", sans-serif;
+    font-weight: 400;
+    color: #522916;
+    font-size: 22px;
+
+}
+
+h5{
+    font-family:"Poppins", sans-serif;
+    font-weight: 700;
+    color: #522916;
+    font-size: 30px;
+}
