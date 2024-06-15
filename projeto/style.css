@@ -121,6 +121,8 @@ ul
 
 .msv { 
     padding: 60px; /*espaçamento nas laterais  */
+    
+
 
 }
 
@@ -145,10 +147,21 @@ h4{
     width: 100%;
     text-align: center;
     box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.348);
-    
-    
 }
 
+.linha{
+    background-color: #522916;
+    height: 300px;
+    width: 6px;
+    border-radius: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#alvo {
+    justify-content: center;
+    margin-left: 85px;
+}
 
 /* compartilhe */
 

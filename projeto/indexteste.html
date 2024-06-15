@@ -4,58 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quem somos</title>
-    <link rel="stylesheet" href="style.css">
-   
-    
+    <link rel="stylesheet" href="styleteste.css">
 </head>
 
 <body>
+    <!-- Código do Cabeçalho -->
+    <header>
+        <img src="/img/logo.png" alt="Logo Caritá">
+       
+        <nav class="navbar">
+        
+            <div class="menu" id="menu">
+              &#9776;
+            </div>
+            <div class="nav-list" id="nav-list">
+              <ul>
+                <li class="nav-item"><a href="#">Página inicial</a></li>
+                <li class="nav-item"><a href="#">Sobre</a></li>
+                <li class="nav-item" ><a id="paginaAtual" href="#">Conteúdo</a></li>
+                <li class="nav-item"><a href="#">Como ajudar</a></li>
+                <li class="nav-item"><a href="#">Contato</a></li>
+                <li class="nav-item"><a href="#">Login</a></li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
     <section class='banner'>
         <div class="titulo">
-        <h1> QUEM SOMOS </h1>
+            <h1> QUEM SOMOS </h1>
         </div>
     </section> <!-- banner-->
 
     <section class="topo-site">
-            <div class="flex"> 
-                <div class="imagem-topo">
-                    <img src="img/logo.png" alt="" width="350px" height="320px">
-                </div> 
+        <div class="flex"> 
+            <div class="imagem-topo">
+                <img src="img/logo.png" alt="" width="350px" height="320px">
+            </div> 
             <div class="texto-topo">
                 <h2> Carità</h2>
                 <p id="texto"> O site de arrecadação de alimentos tem como objetivo diminuir a fome na cidade de Votorantim de forma eficaz e bem estruturada, fornecendo uma variedade de funcionalidades para simplificar o processo de doação e assegurar que os alimentos coletados sejam seguros e apropriados para o consumo das famílias necessitadas.</p>
             </div> <!-- texto topo -->
-           </div> <!--flex-->
+        </div> <!--flex-->
     </section> <!-- topo site  -->
     
-    <section class="flex">
+    <section class="missao-secao">
         <div class="missao">
-            <h3>Nossa Missão, visão e valores </h3>
+            <h3>Nossa Missão, Visão e Valores</h3>
         </div>
     </section> <!-- fim class flex-->
 
     <section class="msv">
-        <div class="flex">
+        <div class="flex msv-box">
             <div class="missao-box">
-                <img src="img/mission.png" alt="" width="166px" height="173" id="alvo">
+                <img src="img/mission.png" alt="" width="150px" height="150px" class="icon">
                 <h4> MISSÃO </h4>
                 <p>Reduzir a fome em Votorantim de forma eficiente, garantindo que os alimentos doados sejam seguros e adequados para as famílias necessitadas. </p>
             </div> <!--missao box-->
 
-            <div class="linha">
-            </div>
+            <div class="linha"></div>
 
             <div class="missao-box">
-                <img src="img/idea-bulb.png" alt=""width="166px" height="173" id="ideia">
+                <img src="img/idea-bulb.png" alt="" width="150px" height="150px" class="icon">
                 <h4> VISÃO </h4>
                 <p>Criar uma comunidade solidária e consciente, onde a fome seja reduzida significativamente através de um processo de doação acessível, transparente e eficaz. </p>
             </div> <!--visao box-->
 
-            <div class="linha">    
-            </div>
+            <div class="linha"></div>
 
             <div class="missao-box">
-                <img src="img/kind.png" alt=""width="166px" height="173" id="coracao">
+                <img src="img/kind.png" alt="" width="150px" height="150px" class="icon">
                 <h4> VALORES </h4>
                 <ul>
                     <li>Solidariedade; </li>
@@ -67,7 +85,6 @@
             </div> <!--missao box-->  
         </div> <!-- flex-->
     </section> <!-- msv-->
-  
 
     <section class="compartilhe">
         <h5>Compartilhe nossa Iniciativa</h5>
@@ -75,8 +92,22 @@
             <p>Ajude-nos a ampliar nosso alcance compartilhando nossa campanha nas redes sociais, grupos locais e com amigos e familiares. Quanto mais pessoas souberem, mais eficaz será nossa missão de ajudar aqueles que mais precisam.</p>
         </div> <!--flex-->
     </section> <!--compartilhe a iniciativa-->
-
-
+    
+    <footer>
+        <img class="imgFooter" src="/img/logo.png" alt="Logo Caritá">
+        <div class="rodape">
+            <p>Nos acompanhe nas nossas redes sociais</p>
+            <div>
+               <a href="https://www.facebook.com" target="_blank">
+                <img class="redesSociais" src="/img/facebook.png" alt="Logo do Facebook">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img class="redesSociais" src="/img/instagram.png" alt="Logo do Instagram">
+            </a> 
+            </div>
+            
+        </div>
+    </footer>
+    <div class="faixaFooter"></div>
 </body>
-
 </html>
